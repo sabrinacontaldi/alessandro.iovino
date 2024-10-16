@@ -193,3 +193,7 @@ body{
         width: 90%;
         
     }
+
+    a:hover{
+        cursor: pointer;
+    }

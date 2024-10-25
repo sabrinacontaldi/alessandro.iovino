@@ -38,6 +38,18 @@ function goBackCommercials(){
     $("#nav").load("nav.html");
     $("#content").load("commercials.html");
 }
+
+
+document.getElementById('instagramButton').addEventListener('click', function() {
+    window.location.href = 'https://www.instagram.com/alessandro.iovino_';
+});
+
+document.getElementById('emailButton').addEventListener('click', function() {
+    const recipient = 'iovinoalessandro88@gmail.com';
+    const mailtoLink = `mailto:${recipient}?`;
+    
+    window.location.href = mailtoLink;
+});
 // const links = document.querySelectorAll('.nav-bar a');
 //     links.forEach(link => {
 //         link.onclick = function() {

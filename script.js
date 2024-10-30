@@ -21,6 +21,9 @@ $(function(){
         case 'albowGardens':
             $("#content").load("albow_gardens.html");
             break;
+        case 'mama':
+            $("#content").load("mama_didnt_raise_me_this_way.html");
+            break;
         case 'about':
             $("#content").load("about.html");
             break;
